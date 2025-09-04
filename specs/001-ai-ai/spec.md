@@ -77,11 +77,15 @@ As an AI寺子屋 instructor, I need to create comprehensive textbook materials 
 - **FR-005**: System MUST support multiple content formats including text, multimedia, and interactive elements specifically designed for Google AI platform integration
 - **FR-011**: System MUST provide hands-on tutorials and exercises using Google's free AI tools (Gemini, Google AI Studio, NotebookLM)
 - **FR-012**: System MUST ensure all practical AI experiences use accessible, free Google AI platforms to eliminate cost barriers
-- **FR-006**: System MUST allow customization of content for different community contexts [NEEDS CLARIFICATION: customization scope not defined]
-- **FR-007**: System MUST provide assessment tools to measure learning progress [NEEDS CLARIFICATION: assessment types and criteria not specified]
-- **FR-008**: System MUST ensure content is accessible to diverse learning abilities and backgrounds
-- **FR-009**: System MUST maintain content quality and educational standards [NEEDS CLARIFICATION: quality metrics not defined]
-- **FR-010**: System MUST enable collaborative content development between multiple instructors [NEEDS CLARIFICATION: collaboration features not specified]
+- **FR-006**: System MUST allow customization of content for different community contexts through modular design and local adaptation guidelines
+- **FR-007**: System MUST provide assessment tools including knowledge quizzes, practical exercises, and self-reflection worksheets to measure learning progress
+- **FR-008**: System MUST ensure content is accessible to diverse learning abilities and backgrounds through multiple learning formats
+- **FR-009**: System MUST maintain content quality through peer review processes and regular updates aligned with AI development
+- **FR-010**: System MUST enable collaborative content development through version control and contributor guidelines for multiple instructors
+- **FR-013**: System MUST implement the social OS framework as the foundational educational philosophy throughout all modules
+- **FR-014**: System MUST provide progression from basic AI experience (Module 2) through practical applications (Module 3) to critical thinking (Modules 4-6)
+- **FR-015**: System MUST include AI vendor bias awareness and geopolitical perspectives as core literacy components
+- **FR-016**: System MUST address AI rights, relationship dynamics, and continuity issues as emerging social challenges
 
 ### Key Entities
 - **Learning Module**: Core educational unit covering specific AI literacy topics with defined learning objectives and outcomes
@@ -90,7 +94,40 @@ As an AI寺子屋 instructor, I need to create comprehensive textbook materials 
 - **Assessment Item**: Evaluation tool measuring learner progress and comprehension of AI concepts
 - **Content Template**: Reusable structure for creating consistent educational materials across different topics
 
-## AI寺子屋カリキュラム構造 *(mandatory)*
+---
+
+## Review & Acceptance Checklist
+*GATE: Automated checks run during main() execution*
+
+### Content Quality
+- [x] No implementation details (languages, frameworks, APIs)
+- [x] Focused on user value and business needs
+- [x] Written for non-technical stakeholders
+- [x] All mandatory sections completed
+
+### Requirement Completeness
+- [x] No [NEEDS CLARIFICATION] markers remain
+- [x] Requirements are testable and unambiguous  
+- [x] Success criteria are measurable
+- [x] Scope is clearly bounded
+- [x] Dependencies and assumptions identified
+
+---
+
+## Execution Status
+*Updated by main() during processing*
+
+- [x] User description parsed
+- [x] Key concepts extracted
+- [x] Ambiguities marked
+- [x] User scenarios defined
+- [x] Requirements generated
+- [x] Entities identified
+- [x] Review checklist passed
+
+---
+
+## AI寺子屋カリキュラム構造 *(detailed specification)*
 
 ### 全体設計思想
 AI時代の「読み書きそろばん」として、以下の3つの柱で構成：
