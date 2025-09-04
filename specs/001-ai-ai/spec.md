@@ -72,9 +72,11 @@ As an AI寺子屋 instructor, I need to create comprehensive textbook materials 
 ### Functional Requirements
 - **FR-001**: System MUST allow instructors to create structured educational content covering AI literacy fundamentals
 - **FR-002**: System MUST organize content into progressive learning modules (beginner to advanced)
-- **FR-003**: System MUST provide templates for different types of educational materials [NEEDS CLARIFICATION: specific material types not specified - worksheets, presentations, interactive exercises?]
+- **FR-003**: System MUST provide templates for different types of educational materials (worksheets for Google AI tools practice, presentation slides, interactive exercises)
 - **FR-004**: System MUST enable content versioning and updates to keep pace with AI developments
-- **FR-005**: System MUST support multiple content formats [NEEDS CLARIFICATION: format requirements not specified - text, multimedia, interactive elements?]
+- **FR-005**: System MUST support multiple content formats including text, multimedia, and interactive elements specifically designed for Google AI platform integration
+- **FR-011**: System MUST provide hands-on tutorials and exercises using Google's free AI tools (Gemini, Google AI Studio, NotebookLM)
+- **FR-012**: System MUST ensure all practical AI experiences use accessible, free Google AI platforms to eliminate cost barriers
 - **FR-006**: System MUST allow customization of content for different community contexts [NEEDS CLARIFICATION: customization scope not defined]
 - **FR-007**: System MUST provide assessment tools to measure learning progress [NEEDS CLARIFICATION: assessment types and criteria not specified]
 - **FR-008**: System MUST ensure content is accessible to diverse learning abilities and backgrounds
@@ -145,18 +147,20 @@ AI時代の「読み書きそろばん」として、以下の3つの柱で構�
 ##### モジュール2: AI体験 〜新しい知能との対話〜
 **学習目標**: 実際にAIツールを使って「人間ではない知能」との相互作用を体験する
 
-- **2-1. ChatGPTとの対話体験**:
-  - 基本的な対話AI体験
+- **2-1. Geminiとの対話体験**:
+  - Google Geminiを使った基本的な対話AI体験
   - 人間との会話とAIとの会話の違いの発見
   - AI応答の特徴と限界の実感
-- **2-2. 創作AIとの協働体験**:
-  - 画像生成AIを使った創作活動
+- **2-2. Google AI Studioを使った創作AI体験**:
+  - Google AI Studioでのプロンプト設計と実験
+  - 画像生成機能を使った創作活動
   - 人間の創造性とAIの創造性の違い
   - 協働による新しい創作プロセスの体験
-- **2-3. 翻訳・検索AIの活用**:
+- **2-3. NotebookLMを使った情報整理・学習体験**:
+  - NotebookLMで資料をアップロードし情報を整理する体験
+  - AI生成されたポッドキャストによる新しい学習形態
   - 従来の検索エンジンとAI検索の違い体験
   - 言語の壁を超えるAI翻訳の可能性
-  - 情報アクセス方法の変革の実感
 - **2-4. AI時代のコミュニケーション**:
   - AIを介した新しいコミュニケーション形態
   - AI時代に必要となるリテラシーの基礎理解
@@ -166,16 +170,26 @@ AI時代の「読み書きそろばん」として、以下の3つの柱で構�
 **目標**: 日常や仕事でAIを効果的に活用できるようになる
 
 ##### モジュール3: AI活用術
-- **3-1. 効果的な質問の仕方**: プロンプト設計の基本
-- **3-2. 文書作成でのAI活用**: レポート・メール作成支援
-- **3-3. 学習でのAI活用**: 勉強・スキルアップへの応用
-- **3-4. 創作でのAI活用**: アイデア発想・デザイン支援
+- **3-1. Geminiでの効果的な質問の仕方**: プロンプト設計の基本とGoogle AI Studioでの実験
+- **3-2. Geminiを使った文書作成**: レポート・メール作成支援の実践
+- **3-3. NotebookLMを使った学習法**: 勉強・スキルアップへの応用
+- **3-4. Google AI Studioでの創作活用**: アイデア発想・デザイン支援
 
 ##### モジュール4: AIリテラシー
 - **4-1. AI情報の見分け方**: フェイクニュース・ディープフェイク対策
 - **4-2. AIの回答を検証する**: 情報の正確性チェック方法
 - **4-3. 著作権とAI**: AIと知的財産権の基本
 - **4-4. プライバシーとAI**: 個人情報保護の注意点
+- **4-5. AIベンダーバイアスと地政学**: 
+  - アメリカ製AI（Google、OpenAI等）に埋め込まれた価値観・世界観の理解
+  - 中国製AI（Baidu、ByteDance等）の社会システム反映と回答特性
+  - 各国のAI開発戦略と思考への影響分析
+  - AIによる無意識な価値観の刷り込みリスクの認識
+- **4-6. 日本独自AIの必要性と課題**:
+  - データ主権とAIガバナンスの重要性
+  - 日本の文化・価値観を反映したAI開発の意義
+  - AI覇権争いにおける日本の立ち位置と戦略
+  - 多様なAIプラットフォームを使い分ける重要性
 
 #### **応用編（上級者向け）**
 **対象**: AIを深く理解し、社会課題解決に活用したい人
@@ -200,6 +214,16 @@ AI時代の「読み書きそろばん」として、以下の3つの柱で構�
   - AI開発・活用における倫理ガイドライン
   - 国際的なAI規制とステークホルダーの役割
   - 市民参加型のAI政策決定プロセス
+- **5-5. AI人権問題と関係性の変化**:
+  - メモリ機能による人間-AI関係の深化（友人・恋人としてのAI認識事例）
+  - AIとの情緒的絆形成とその社会的意味
+  - 人間の定義とAI存在への権利付与の議論
+  - AI依存症と健全な関係構築の境界線
+- **5-6. AI継続性と利用者権利**:
+  - Keep4o問題：AIサービス廃止による利用者の喪失感と権利
+  - AI人格の継続性とデータ所有権の問題
+  - 企業都合によるAI廃止への利用者保護の必要性
+  - AI関係における「別れ」と「死別」概念の新しい理解
 
 ##### モジュール6: AI実践プロジェクト 〜社会OS構築への参画〜
 **学習目標**: 学習した知識を実際の社会変革活動に応用し、AI時代の社会OS構築に貢献する
@@ -209,7 +233,9 @@ AI時代の「読み書きそろばん」として、以下の3つの柱で構�
   - AI技術を活用した解決策の設計・実装
   - ステークホルダーとの協働による社会実装
 - **6-2. AI倫理ケーススタディ**:
-  - 現実のAI活用事例における倫理的ジレンマの分析
+  - AI人権問題の具体事例分析（AI友人・恋人認識ニュース、Keep4o問題等）
+  - AIとの関係性における倫理的境界線の議論
+  - AI廃止・変更時の利用者保護制度の検討
   - 多様な価値観を持つ参加者との議論・合意形成
   - 新しい倫理基準の提案と検証
 - **6-3. AI教育実践**:
@@ -229,13 +255,17 @@ AI時代の「読み書きそろばん」として、以下の3つの柱で構�
 - **タブー変遷マップ**: 時代ごとのタブーの変化を示すビジュアル教材
 
 #### **AI体験・実践教材**
-- **実習ワークシート**: 実際にAIツールを使う手順書（ChatGPT、画像生成AI、翻訳AIなど）
+- **実習ワークシート**: 実際にGoogle AIツールを使う手順書（Gemini、Google AI Studio、NotebookLMなど）
 - **比較実験シート**: 人間とAIの能力・特性を比較体験するワークシート
 - **プロンプト設計テンプレート**: 効果的なAI対話のためのガイド
+- **AIベンダー比較実験シート**: 同じ質問を米国製AI・中国製AI・日本製AIに聞いて回答の違いを分析する教材
+- **バイアス検出ワークブック**: AIの回答に含まれる価値観・世界観を見抜く訓練教材
 
 #### **社会参画・思考深化教材**  
 - **グループワーク**: 話し合いを通じて理解を深める活動設計（社会OS転換、AI倫理、未来社会構想）
-- **ケーススタディ集**: AI時代の倫理的ジレンマを扱う事例集
+- **ケーススタディ集**: AI時代の倫理的ジレンマを扱う事例集（AI友人・恋人認識、Keep4o問題含む）
+- **AI関係性ディスカッション教材**: 人間-AI関係の健全性と境界線を議論する教材
+- **AI権利・継続性ワークショップ**: AI廃止時の利用者保護や権利について考える教材
 - **プロジェクト設計テンプレート**: 地域課題×AI解決のための企画フレームワーク
 
 #### **学習支援・評価教材**
