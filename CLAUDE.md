@@ -58,9 +58,24 @@ participant-guide/            # Workshop participant materials (USER-FACING)
 ├── 30-minute-setup-test.md  # Realistic constraint validation results
 ├── feedback-collection-system.md# User feedback & improvement tracking
 ├── version-control-strategy.md# Content versioning & collaborative editing
-├── templates/               # Development templates for content creation
-├── scripts/                 # Automation scripts for development workflow
-└── memory/                  # Claude Code context and configuration
+
+memory/                       # Claude Code context and configuration (DEVELOPMENT)
+├── constitution.md          # Claude Code constitutional principles
+└── constitution_update_checklist.md # Update guidelines for constitutional changes
+
+scripts/                      # Automation scripts for development workflow (DEVELOPMENT)
+├── check-task-prerequisites.sh # Validate task dependencies
+├── common.sh                # Shared script utilities
+├── create-new-feature.sh    # Feature creation automation
+├── get-feature-paths.sh     # Path resolution utilities
+├── setup-plan.sh            # Planning phase automation
+└── update-agent-context.sh  # Context management automation
+
+templates/                    # Development templates for content creation (DEVELOPMENT)
+├── agent-file-template.md   # Template for system-prompt files
+├── plan-template.md         # Template for planning documents
+├── spec-template.md         # Template for specifications
+└── tasks-template.md        # Template for task breakdowns
 ```
 
 ## Key Design Principles
