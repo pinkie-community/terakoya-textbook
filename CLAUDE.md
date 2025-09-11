@@ -15,18 +15,11 @@ Street-level AI literacy education system targeting Japanese IT beginners who pr
 - **Platform**: PC-first with smartphone fallback options
 - **Cost**: Free tools only, addresses economic concerns
 
-## Current Architecture
+## Current Architecture (REORGANIZED FOR CLARITY)
 ```
-specs/002-it-ai-pc/           # Feature specification & planning
-├── spec.md                   # Requirements with empathy framework
-├── plan.md                   # Implementation strategy  
-├── research.md               # Technical decisions & rationale
-├── data-model.md             # Learning entities & relationships
-├── contracts/                # Module & workshop delivery contracts
-├── quickstart.md             # 15-minute success experience
-└── tasks.md                  # Implementation task breakdown (40 tasks)
+README.md                     # Main textbook entrance for learners
 
-modules/                      # Learning content (COMPLETED)
+modules/                      # Core learning content (MAIN CONTENT)
 ├── 00-setup/                # Google accounts, Gemini installation + practice scenarios
 ├── 01-introduction/         # Why learn AI, addressing fears + motivation exercises  
 ├── 02-ai-safety/           # Safe usage principles + safety practice scenarios
@@ -35,19 +28,39 @@ modules/                      # Learning content (COMPLETED)
 ├── 05-research/            # Information gathering skills + investigation scenarios
 └── static/templates/        # Business scenario exercises for all modules
 
-workshop/                     # 90-minute workshop curriculum (COMPLETED)
-├── facilitator-guide.md     # Complete facilitation script with persona awareness
-├── timeline-checklist.md    # Minute-by-minute time management & emergency protocols
-├── troubleshooting-guide.md # Real-world problem resolution for facilitators
-├── handouts/                # Participant take-home materials (3 files)
-├── slides/                  # Presentation materials (22 slides)
-├── demos/                   # Demonstration scenarios for all persona types
-└── support/                 # Setup guides (GitHub navigation, Discord setup)
+specs/                        # Feature specification & planning (DEVELOPMENT)
+└── 002-it-ai-pc/           
+    ├── spec.md              # Requirements with empathy framework
+    ├── plan.md              # Implementation strategy  
+    ├── research.md          # Technical decisions & rationale
+    ├── data-model.md        # Learning entities & relationships
+    ├── contracts/           # Module & workshop delivery contracts
+    ├── quickstart.md        # 15-minute success experience
+    └── tasks.md             # Implementation task breakdown (40 tasks)
 
-community-guidelines.md      # Discord moderation & community management
-common-troubleshooting.md    # Technical & psychological support guide
-learning-path-validation.md  # Complete learning journey verification
-30-minute-setup-test.md      # Realistic constraint validation results
+participant-guide/            # Workshop participant materials (USER-FACING)
+├── workshop-handout.md      # Complete workshop participant guide
+├── setup-checklist.md       # Setup verification checklist
+└── quick-reference.md       # Quick reference for ongoing use
+
+.meta/                        # Development & operational resources (DEVELOPMENT)
+├── workshop/                # Complete 90-minute workshop curriculum
+│   ├── facilitator-guide.md # Complete facilitation script with persona awareness
+│   ├── timeline-checklist.md# Minute-by-minute time management & emergency protocols
+│   ├── troubleshooting-guide.md# Real-world problem resolution for facilitators
+│   ├── handouts/            # Original participant materials (moved to participant-guide/)
+│   ├── slides/              # Presentation materials (22 slides)
+│   ├── demos/               # Demonstration scenarios for all persona types
+│   └── support/             # Setup guides (GitHub navigation, Discord setup)
+├── community-guidelines.md  # Discord moderation & community management
+├── common-troubleshooting.md# Technical & psychological support guide
+├── learning-path-validation.md# Complete learning journey verification
+├── 30-minute-setup-test.md  # Realistic constraint validation results
+├── feedback-collection-system.md# User feedback & improvement tracking
+├── version-control-strategy.md# Content versioning & collaborative editing
+├── templates/               # Development templates for content creation
+├── scripts/                 # Automation scripts for development workflow
+└── memory/                  # Claude Code context and configuration
 ```
 
 ## Key Design Principles
