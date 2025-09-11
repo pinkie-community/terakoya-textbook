@@ -19,14 +19,29 @@ Street-level AI literacy education system targeting Japanese IT beginners who pr
 ```
 README.md                     # Main textbook entrance for learners
 
-modules/                      # Core learning content (MAIN CONTENT)
-├── 00-setup/                # Google accounts, Gemini installation + practice scenarios
-├── 01-introduction/         # Why learn AI, addressing fears + motivation exercises  
-├── 02-ai-safety/           # Safe usage principles + safety practice scenarios
-├── 03-idea-generation/     # Creative AI applications + business scenario templates
-├── 04-gemini-memory/       # Personalization features + customization exercises
-├── 05-research/            # Information gathering skills + investigation scenarios
-└── static/templates/        # Business scenario exercises for all modules
+modules/                      # Core learning content (MAIN CONTENT - CLEANED FOR LEARNERS)
+├── 00-setup/                # Google accounts, Gemini installation
+│   ├── README.md           # Learning guide
+│   ├── system-prompt.md    # AI conversation guide
+│   └── static/templates/   # Practice scenarios
+├── 01-introduction/         # Why learn AI, addressing fears
+│   ├── README.md           # Learning guide
+│   ├── system-prompt.md    # AI conversation guide
+│   └── static/templates/   # Motivation exercises
+├── 02-ai-safety/           # Safe usage principles
+│   ├── README.md           # Learning guide  
+│   ├── system-prompt.md    # AI conversation guide
+│   └── static/templates/   # Safety practice scenarios
+├── 03-idea-generation/     # Creative AI applications
+│   ├── README.md           # Learning guide
+│   ├── system-prompt.md    # AI conversation guide
+│   └── static/templates/   # Business scenario templates
+├── 04-gemini-memory/       # Personalization features
+│   ├── README.md           # Learning guide
+│   ├── system-prompt.md    # AI conversation guide
+│   └── static/templates/   # Customization exercises
+└── 05-research/            # Information gathering skills
+    └── static/templates/   # Investigation scenarios (README/system-prompt pending)
 
 specs/                        # Feature specification & planning (DEVELOPMENT)
 └── 002-it-ai-pc/           
@@ -58,6 +73,11 @@ participant-guide/            # Workshop participant materials (USER-FACING)
 ├── 30-minute-setup-test.md  # Realistic constraint validation results
 ├── feedback-collection-system.md# User feedback & improvement tracking
 ├── version-control-strategy.md# Content versioning & collaborative editing
+├── module-development/      # Module development artifacts (moved from modules/)
+│   ├── *-empathy-checklist.md # Empathy validation checklists
+│   ├── *-validation-result.md  # Module validation results  
+│   ├── *-qr-codes/         # QR code resources for setup
+│   └── *-screenshots/      # Development documentation screenshots
 
 memory/                       # Claude Code context and configuration (DEVELOPMENT)
 ├── constitution.md          # Claude Code constitutional principles
