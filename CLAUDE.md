@@ -19,29 +19,29 @@ Street-level AI literacy education system targeting Japanese IT beginners who pr
 ```
 README.md                     # Main textbook entrance for learners
 
-modules/                      # Core learning content (MAIN CONTENT - CLEANED FOR LEARNERS)
+modules/                      # Core learning content (MAIN CONTENT - SIMPLIFIED FOR LEARNERS)
 ├── 00-setup/                # Google accounts, Gemini installation
 │   ├── README.md           # Learning guide
 │   ├── system-prompt.md    # AI conversation guide
-│   └── static/templates/   # Practice scenarios
+│   └── practice.md         # Practice scenarios
 ├── 01-introduction/         # Why learn AI, addressing fears
 │   ├── README.md           # Learning guide
 │   ├── system-prompt.md    # AI conversation guide
-│   └── static/templates/   # Motivation exercises
+│   └── practice.md         # Motivation exercises
 ├── 02-ai-safety/           # Safe usage principles
 │   ├── README.md           # Learning guide  
 │   ├── system-prompt.md    # AI conversation guide
-│   └── static/templates/   # Safety practice scenarios
+│   └── practice.md         # Safety practice scenarios
 ├── 03-idea-generation/     # Creative AI applications
 │   ├── README.md           # Learning guide
 │   ├── system-prompt.md    # AI conversation guide
-│   └── static/templates/   # Business scenario templates
+│   └── practice.md         # Business scenario templates
 ├── 04-gemini-memory/       # Personalization features
 │   ├── README.md           # Learning guide
 │   ├── system-prompt.md    # AI conversation guide
-│   └── static/templates/   # Customization exercises
+│   └── practice.md         # Customization exercises
 └── 05-research/            # Information gathering skills
-    └── static/templates/   # Investigation scenarios (README/system-prompt pending)
+    └── practice.md         # Investigation scenarios (README/system-prompt pending)
 
 specs/                        # Feature specification & planning (DEVELOPMENT)
 └── 002-it-ai-pc/           
